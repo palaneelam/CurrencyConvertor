@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="amount" value="1"/>
+	  <parameter name="fromCurrency" value="USD"/>
+	  <parameter name="toCurrency" value="INR"/>
+    <classes>
+      <class name="CurrencyConvertor.CCAutomation.TestSuite"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test1">
+	  <parameter name="amount" value="1"/>
+	  <parameter name="fromCurrency" value="USD"/>
+	  <parameter name="toCurrency" value="EUR"/>
+    <classes>
+      <class name="CurrencyConvertor.CCAutomation.TestSuite"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test2">
+	  <parameter name="amount" value="1"/>
+	  <parameter name="fromCurrency" value="USD"/>
+	  <parameter name="toCurrency" value="BGN"/>
+    <classes>
+      <class name="CurrencyConvertor.CCAutomation.TestSuite"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test3">
+	  <parameter name="amount" value="1"/>
+	  <parameter name="fromCurrency" value="USD"/>
+	  <parameter name="toCurrency" value="GBP"/>
+    <classes>
+      <class name="CurrencyConvertor.CCAutomation.TestSuite"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
